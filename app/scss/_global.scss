@@ -8,3 +8,40 @@ html {
 *::after {
     box-sizing: inherit;
 }
+
+
+body{
+    font-family: "Gotham-Medium",sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff ;
+}
+
+
+@keyframes arrow-down {
+    0% {
+        opacity: 0;
+
+    }
+
+    25% {
+        opacity: 0.25;
+
+    }
+
+    50% {
+        opacity: .5;
+
+    }
+
+    75% {
+        opacity: .75;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
